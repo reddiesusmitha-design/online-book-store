@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout - Ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🛍️ My Ecommerce Store</h1>
+</header>
+
+<section class="login-box">
+
+    <h2>Checkout</h2>
+
+    <input type="text" id="customerName" placeholder="Full Name">
+
+    <input type="text" id="address" placeholder="Delivery Address">
+
+    <input type="text" id="phone" placeholder="Phone Number">
+
+    <h3>Payment Method</h3>
+
+    <select id="payment">
+        <option value="">Select Payment Method</option>
+        <option value="Cash on Delivery">Cash on Delivery</option>
+        <option value="UPI">UPI</option>
+        <option value="Card">Card</option>
+    </select>
+
+    <br><br>
+
+    <button onclick="placeOrder()">Place Order</button>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
